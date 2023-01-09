@@ -9,5 +9,11 @@ public class Usuario {
 
         smartTv.ligar();
         System.out.println("TV ligada ? " + smartTv.ligada);
+
+        smartTv.diminuirVolume();
+        System.out.println("Novo Volume: " + smartTv.volume);
+
+        smartTv.mudarCanal(13);
+        System.out.println("Novo Canal: " + smartTv.canal);
     }
 }
